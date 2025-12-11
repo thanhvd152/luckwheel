@@ -28,10 +28,13 @@
             </div>
         </div>
 
-        <!-- Task Result Display -->
-        <div class="task-result" id="taskResult">
-            <div class="result-label">Phần thưởng cho người chiến thắng:</div>
-            <div class="result-task" id="selectedTaskDisplay">Nhấn QUAY để bắt đầu</div>
+        <!-- Task Result Display - Popup -->
+        <div class="popup-overlay" id="popupOverlay">
+            <div class="task-result-popup" id="taskResult">
+                <div class="result-label">Phần thưởng cho người chiến thắng:</div>
+                <div class="result-task" id="selectedTaskDisplay">Nhấn QUAY để bắt đầu</div>
+                <button class="popup-close" onclick="closePopup()">Đóng</button>
+            </div>
         </div>
 
         <!-- Management Panels -->

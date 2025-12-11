@@ -285,6 +285,9 @@ function selectWinner() {
         <div><strong>${selectedEmployee.name}</strong> - ${selectedTask.text}</div>
     `;
 
+    // Show popup
+    showPopup();
+
     // Play winner sound
     // Alternate between sounds (xen kẽ)
     lastWinSoundIndex = (lastWinSoundIndex + 1) % winSounds.length;
@@ -448,6 +451,9 @@ function resetGame() {
 
         // Reset display
         document.getElementById('selectedTaskDisplay').textContent = 'Nhấn QUAY để bắt đầu';
+        
+        // Close popup if open
+        closePopup();
 
         // Reset wheel rotation
         wheelRotation = 0;
@@ -460,6 +466,27 @@ function resetGame() {
     }
 }
 
+// Popup functions
+function showPopup() {
+    const popupOverlay = document.getElementById('popupOverlay');
+    popupOverlay.classList.add('show');
+}
+
+function closePopup() {
+    const popupOverlay = document.getElementById('popupOverlay');
+    popupOverlay.classList.remove('show');
+}
+
+// Close popup when clicking on overlay
+document.addEventListener('DOMContentLoaded', function() {
+    const popupOverlay = document.getElementById('popupOverlay');
+    popupOverlay.addEventListener('click', function(e) {
+        if (e.target === popupOverlay) {
+            closePopup();
+        }
+    });
+});
+
 // Initialize when page loads
 window.addEventListener('DOMContentLoaded', init);
 
@@ -467,7 +494,7 @@ window.addEventListener('DOMContentLoaded', init);
 function triggerFireworks() {
     var duration = 5 * 1000;
     var animationEnd = Date.now() + duration;
-    var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+    var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 2000 };
 
     function randomInRange(min, max) {
         return Math.random() * (max - min) + min;
