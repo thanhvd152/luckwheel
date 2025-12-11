@@ -193,7 +193,7 @@ canvas {
 .winner-image {
     /* object-fit: ; */
     width: 200px;
-    height: 150px;
+    height: auto;
     border-radius: 50%;
     object-fit: cover;
     margin: 0 auto 15px auto;
