@@ -6,7 +6,7 @@ let employees = [
     { id: 4, name: "Phan Văn Hoàn", phone: "0335098229", image: "Icon-ABBank.webp", used: false },
     { id: 5, name: "Phạm Minh Tân", phone: "0378405034", image: "images/tanpm.png", used: false },
     { id: 6, name: "Bùi Ngọc Sơn", phone: "0328771443", image: "Icon-ABBank.webp", used: false },
-    { id: 7, name: "Lê Văn Đức Cớp WEB", phone: "0976393238", image: "Icon-ABBank.webp", used: false },
+    { id: 7, name: "Lê Văn Đức/Ngất", phone: "0976393238", image: "images/ducngat.jpeg", used: false },
     { id: 8, name: "Nguyễn Tùng Lâm", phone: "0982162220", image: "images/lamnt.png", used: false },
     { id: 9, name: "Nguyễn Trần Sơn", phone: "0972421894", image: "images/sonnt9.png", used: false },
     { id: 10, name: "Giáp Văn Vĩnh", phone: "0969536509", image: "Icon-ABBank.webp", used: false },
