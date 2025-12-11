@@ -48,7 +48,6 @@ let tasks = [
   { "id": 13, "text": "Nhắn tin cho người yêu cũ nói muốn quay lại hoặc uống 2 chén hoặc nộp phạt 200k" },
   { "id": 14, "text": "Uống với người bên trái 1 chén, uống với người bên phải 1 chén" },
   { "id": 15, "text": "Oẳn tù tì với người đối diện, ai thắng được 200k" },
-  { "id": 16, "text": "Không kể được 3 món ăn có chữ 'nước' thì uống 1 chén" },
   { "id": 17, "text": "Hô to tôi làm được, tôi làm được và uống 2 chén hoặc nộp phạt 200k" },
   { "id": 18, "text": "Nộp 200k hoặc Hô to tôi làm được, tôi làm được và uống 2 chén" },
   { "id": 19, "text": "Gọi 1 người ngoài cuộc nói 'Tớ nhớ cậu' hoặc nộp phạt 300k" },
