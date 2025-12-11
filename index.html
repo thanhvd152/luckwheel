@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiếc Nón Kì Diệu - Vòng Quay May Mắn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">🎉 Chiếc Nón Kì Diệu - Sự Kiện 12-13/12/2025 🎉</h1>
+        <!-- Wheel Section -->
+        <div class="wheel-section">
+            <div class="wheel-container">
+                <div class="wheel-pointer">▼</div>
+                <canvas id="wheelCanvas" width="800" height="800"></canvas>
+                <button id="spinBtn" class="spin-button" onclick="spinWheel()">
+                    <span class="spin-text">QUAY</span>
+                    <span class="spin-icon">🎯</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Task Result Display -->
+        <div class="task-result" id="taskResult">
+            <div class="result-label">Phần thưởng cho người chiến thắng:</div>
+            <div class="result-task" id="selectedTaskDisplay">Nhấn QUAY để bắt đầu</div>
+        </div>
+
+        <!-- Management Panels -->
+        <div class="management-section">
+            <!-- Employee Management -->
+            <div class="panel employee-panel">
+                <h2>👥 Quản Lý Nhân Viên</h2>
+                <div class="stats">
+                    <span class="stat-item">Tổng: <strong id="totalEmployees">24</strong></span>
+                    <span class="stat-item">Còn lại: <strong id="remainingEmployees">24</strong></span>
+                </div>
+                <div class="employee-list" id="employeeList"></div>
+                <div class="add-section">
+                    <input type="text" id="employeeName" placeholder="Tên nhân viên" class="input-field">
+                    <input type="text" id="employeePhone" placeholder="Số điện thoại" class="input-field">
+                    <button onclick="addEmployee()" class="btn-add">➕ Thêm</button>
+                </div>
+            </div>
+
+            <!-- Task Management -->
+            <div class="panel task-panel">
+                <h2>📋 Quản Lý Công Việc</h2>
+                <div class="task-list" id="taskList"></div>
+                <div class="add-section">
+                    <input type="text" id="taskName" placeholder="Nhập công việc mới" class="input-field">
+                    <button onclick="addTask()" class="btn-add">➕ Thêm</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- History Section -->
+        <div class="history-section">
+            <h3>📜 Lịch Sử Quay Thưởng</h3>
+            <div id="historyList" class="history-list"></div>
+            <button onclick="resetGame()" class="btn-reset">🔄 Reset Game</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
