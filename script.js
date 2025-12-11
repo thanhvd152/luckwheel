@@ -265,6 +265,10 @@ function selectWinner() {
         <div><strong>${selectedEmployee.name}</strong> - ${selectedTask.text}</div>
     `;
 
+    // Play winner sound
+    const winSound = new Audio('winner.mp3');
+    winSound.play().catch(e => console.log('Audio play failed (check if winner.mp3 exists):', e));
+
     // Add to history
     history.unshift({
         employee: selectedEmployee,
