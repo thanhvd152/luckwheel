@@ -49,7 +49,7 @@ let tasks = [
     { "id": 16, "text": "Được thưởng 200k" },
     { "id": 17, "text": "Nhắn tin cho người yêu cũ nói muốn quay lại hoặc uống 2 chén hoặc nộp phạt 200k" },
     { "id": 16, "text": "Được người bên kế bên trái thưởng 100k, hoặc người bên trái uống 1 chén" },
-    { "id": 18, "text": "Khen một người thật lòng hoặc uống 1 chén" },
+    { "id": 18, "text": "Oẳn tù tì với người đối diện, ai thằng được 200k" },
     { "id": 19, "text": "Không kể được 3 món ăn có chữ 'nước' thì uống 1 chén" },
     { "id": 21, "text": "Chỉ định 1 người kể bí mật nhỏ – từ chối: uống 1 chén hoặc phạt 200k" },
     { "id": 22, "text": "Đồng khởi vòng tròn: ai dừng đầu tiên uống 1 chén" },
@@ -66,7 +66,8 @@ let tasks = [
     { "id": 35, "text": "Chỉ định 1 người nói 3 điều họ ghét – nếu họ không nói: bạn uống 1 chén" },
     { "id": 36, "text": "Không nhớ tên 3 người chơi trong bàn thì uống 1 chén" },
     { "id": 37, "text": "Cả nhóm hỏi 1 câu khó – nếu trả lời sai uống 2 chén hoặc phạt 200k" },
-    { "id": 38, "text": "Phạt 100k và chỉ định 1 người uống 1 chén" }
+    { "id": 38, "text": "Phạt 100k và chỉ định 1 người uống 1 chén" },
+    { "id": 39, "text": "Ôm hôn người bên cạnh hoặc uống 3 chén" },
   ]
 
 let history = [];
