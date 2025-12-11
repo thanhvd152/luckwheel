@@ -50,7 +50,7 @@ let tasks = [
   { "id": 15, "text": "Oẳn tù tì với người đối diện, ai thắng được 200k" },
   { "id": 16, "text": "Không kể được 3 món ăn có chữ 'nước' thì uống 1 chén" },
   { "id": 17, "text": "Chỉ định 1 người kể bí mật nhỏ – từ chối: uống 1 chén hoặc phạt 200k" },
-  { "id": 18, "text": "Đồng khởi vòng tròn: ai dừng đầu tiên uống 1 chén" },
+  { "id": 18, "text": "Nộp 200k hoặc Hô to tôi làm được, tôi làm được và uống 2 chén" },
   { "id": 19, "text": "Gọi 1 người ngoài cuộc nói 'Tớ nhớ cậu' hoặc nộp phạt 300k" },
   { "id": 20, "text": "Đứng lên pose dáng 5 giây – ngại thì uống 1 chén" },
   { "id": 21, "text": "Kể 3 điểm tốt về bản thân, thiếu mỗi điểm uống 1 chén" },
