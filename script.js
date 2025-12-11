@@ -54,7 +54,6 @@ let tasks = [
     { "id": 24, "text": "Gọi 1 người ngoài cuộc nói 'Tớ nhớ cậu' hoặc nộp phạt 300k" },
     { "id": 25, "text": "Đứng lên pose dáng 5 giây – ngại thì uống 1 chén" },
     { "id": 26, "text": "Kể 3 điểm tốt về bản thân, thiếu mỗi điểm uống 1 chén" },
-    { "id": 43, "text": "Uống với MinhDT Devops 1 chén hoặc nộp phạt 200k" },
     { "id": 28, "text": "Oẳn tù tì với người kế bên phải, thua uống 1 chén" },
     { "id": 29, "text": "Không đọc ngược được tên mình thì uống 1 chén" },
     { "id": 32, "text": "Cạch với 1 người bất kỳ và cả hai cùng uống 1 chén" },
@@ -68,6 +67,8 @@ let tasks = [
     { "id": 40, "text": "Uống với YênDV SA 1 chén hoặc nộp phạt 200k" },
     { "id": 41, "text": "Uống với ĐứcPM SA 1 chén hoặc nộp phạt 200k" },
     { "id": 23, "text": "Uống với TungPV SA 1 chén hoặc nộp phạt 200k" },
+    { "id": 44, "text": "Uống với VuBX 1 chén hoặc nộp phạt 200k" },
+    { "id": 43, "text": "Uống với MinhDT Devops 1 chén hoặc nộp phạt 200k" },
   ]
 
 let history = [];
