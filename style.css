@@ -551,32 +551,94 @@ canvas {
     }
 }
 
-@media (max-width: 768px) {
+/* iPad Responsive (481px - 1024px) */
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        padding: 15px;
+    }
+
     .title {
-        font-size: 1.8rem;
+        font-size: 2rem;
+        margin-bottom: 25px;
+    }
+
+    .wheel-section {
+        margin: 30px 0;
+        padding: 15px;
     }
 
     .wheel-container {
-        width: 400px;
-        height: 400px;
+        width: 70vw;
+        height: 70vw;
+        max-width: 600px;
+        max-height: 600px;
     }
 
     #wheelCanvas {
-        width: 400px !important;
-        height: 400px !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .wheel-pointer {
+        font-size: 50px;
+        top: -35px;
     }
 
     .spin-button {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
+        font-size: 1.5rem;
+        border-width: 5px;
+    }
+
+    .spin-text {
+        font-size: 1.1rem;
+    }
+
+    .spin-icon {
+        font-size: 1.8rem;
+    }
+
+    .task-result-popup {
+        padding: 35px 40px 30px 40px;
+        min-width: 450px;
+        max-width: 85%;
+    }
+
+    .result-task {
+        font-size: 1.6rem;
+    }
+
+    .winner-image {
+        width: 180px;
+    }
+
+    .panel {
+        padding: 20px;
+    }
+
+    .panel h2 {
         font-size: 1.4rem;
     }
 
-    .task-result {
-        min-width: auto;
-        width: 100%;
+    .employee-item,
+    .task-item {
+        padding: 12px 15px;
+    }
+
+    .employee-name {
+        font-size: 1.1rem;
+    }
+
+    .task-text {
+        font-size: 1.05rem;
+    }
+
+    .history-section h3 {
+        font-size: 1.2rem;
     }
 }
+
 
 .employee-avatar {
     width: 40px;

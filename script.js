@@ -1,29 +1,35 @@
 // Danh sách thành viên tham gia sự kiện 12-13/12/2025
 let employees = [
-    // { id: 1, name: "Nguyễn Đức Quang", phone: "0984312864", image: "Icon-ABBank.webp", used: false },
-    // { id: 2, name: "Ngọc đẹp trai", phone: "0903238990", image: "Icon-ABBank.webp", used: false },
+    { id: 1, name: "Nguyễn Đức Quang", phone: "0984312864", image: "Icon-ABBank.webp", used: false },
+    { id: 2, name: "Ngọc Thọt iOS", phone: "0903238990", image: "Icon-ABBank.webp", used: false },
     { id: 3, name: "Bùi Xuân Vũ", phone: "0965080111", image: "images/vu.png", used: false },
-    // { id: 4, name: "Phan Văn Hoàn", phone: "0335098229", image: "Icon-ABBank.webp", used: false },
+    { id: 4, name: "Phan Văn Hoàn", phone: "0335098229", image: "Icon-ABBank.webp", used: false },
     { id: 5, name: "Phạm Minh Tân", phone: "0378405034", image: "images/tanpm.png", used: false },
-    // { id: 6, name: "Bùi Ngọc Sơn", phone: "0328771443", image: "Icon-ABBank.webp", used: false },
-    // { id: 7, name: "DucLV5", phone: "0976393238", image: "Icon-ABBank.webp", used: false },
+    { id: 6, name: "Bùi Ngọc Sơn", phone: "0328771443", image: "Icon-ABBank.webp", used: false },
+    { id: 7, name: "Lê Văn Đức Cớp WEB", phone: "0976393238", image: "Icon-ABBank.webp", used: false },
     { id: 8, name: "Nguyễn Tùng Lâm", phone: "0982162220", image: "images/lamnt.png", used: false },
     { id: 9, name: "Nguyễn Trần Sơn", phone: "0972421894", image: "images/sonnt.png", used: false },
-    // { id: 10, name: "Giáp Văn Vĩnh", phone: "0969536509", image: "Icon-ABBank.webp", used: false },
-    // { id: 11, name: "viethq", phone: "0912353456", image: "Icon-ABBank.webp", used: false },
-    // { id: 12, name: "Sửu", phone: "0865486754", image: "Icon-ABBank.webp", used: false },
+    { id: 10, name: "Giáp Văn Vĩnh", phone: "0969536509", image: "Icon-ABBank.webp", used: false },
+    { id: 11, name: "viethq", phone: "0912353456", image: "Icon-ABBank.webp", used: false },
+    { id: 12, name: "Sửu", phone: "0865486754", image: "Icon-ABBank.webp", used: false },
     { id: 13, name: "Phạm Văn Tùng", phone: "0985623823", image: "images/tungpv.png", used: false },
     { id: 14, name: "Vũ Đình Thanh", phone: "0363958716", image: "images/thanhvd.png", used: false },
     { id: 15, name: "Ducpm6", phone: "0378113760", image: "images/ducpm.png", used: false },
-    // { id: 16, name: "Hưởng", phone: "0966323766", image: "Icon-ABBank.webp", used: false },
+    { id: 16, name: "Hưởng", phone: "0966323766", image: "Icon-ABBank.webp", used: false },
     { id: 17, name: "Đặng Thanh Minh", phone: "0349802165", image: "images/minhdt.png", used: false },
-    // { id: 18, name: "Trịnh Quốc Nhân", phone: "0936485200", image: "Icon-ABBank.webp", used: false },
-    // { id: 19, name: "Đàm Văn Quang", phone: "0346540128", image: "Icon-ABBank.webp", used: false },
+    { id: 18, name: "Trịnh Quốc Nhân", phone: "0936485200", image: "Icon-ABBank.webp", used: false },
+    { id: 19, name: "Đàm Văn Quang", phone: "0346540128", image: "Icon-ABBank.webp", used: false },
     { id: 20, name: "YênDV", phone: "0965533329", image: "images/yendv.png", used: false },
-    // { id: 21, name: "Nguyễn Văn Đại", phone: "0966535218", image: "Icon-ABBank.webp", used: false },
+    { id: 21, name: "Nguyễn Văn Đại", phone: "0966535218", image: "Icon-ABBank.webp", used: false },
     { id: 22, name: "Nguyễn Ngọc Trí", phone: "0379599273", image: "images/tri.png", used: false },
     { id: 23, name: "Đào Mạnh Hoàng", phone: "0973519446", image: "images/hoangdm.png", used: false },
-    { id: 24, name: "Nguyễn Đức Huy", phone: "0349612486", image: "images/huynd.png", used: false }
+    { id: 24, name: "Nguyễn Đức Huy", phone: "0349612486", image: "images/huynd3.png", used: false },
+    { id: 25, name: "Nghĩa Design ", phone: "0394543883", image: "Icon-ABBank.webp", used: false },
+    { id: 26, name: "Nguyễn Hồng Sơn", phone: "0974182365", image: "Icon-ABBank.webp", used: false },
+    { id: 27, name: "BOSS Nguyễn Ngọc Thanh", phone: "0904832202", image: "images/thanhnn2.png", used: false },
+    { id: 28, name: "Hoài Hà", phone: "0978953618", image: "Icon-ABBank.webp", used: false },
+
+
 ];
 
 let tasks = [
