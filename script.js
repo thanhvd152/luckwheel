@@ -58,6 +58,10 @@ let wheelRotation = 0;
 let isSpinning = false;
 let spinSpeed = 0;
 let targetRotation = 0;
+let bgMusic = new Audio('nhacnen.mp3'); // Nhạc nền
+bgMusic.loop = true; // Lặp lại nhạc nền
+let winSounds = [new Audio('winner.mp3'), new Audio('winner2.mp3')]; // Danh sách nhạc chiến thắng
+let lastWinSoundIndex = 0;
 
 // Vibrant color palette for wheel segments
 const colors = [
@@ -194,6 +198,18 @@ function spinWheel() {
     targetRotation = wheelRotation + (extraRotations * 2 * Math.PI) + (randomSegment * anglePerSegment) + (anglePerSegment / 2);
     spinSpeed = 0.5; // Initial speed
 
+    // Stop winner sound if playing
+    winSounds.forEach(sound => {
+        if (!sound.paused) {
+            sound.pause();
+        }
+        sound.currentTime = 0;
+    });
+
+    // Play background music
+    bgMusic.currentTime = 0;
+    bgMusic.play().catch(e => console.log('Background music play failed:', e));
+
     animateWheel();
 }
 
@@ -215,6 +231,10 @@ function animateWheel() {
         drawWheel();
         isSpinning = false;
         document.getElementById('spinBtn').disabled = false;
+        
+        // Stop background music
+        bgMusic.pause();
+        bgMusic.currentTime = 0;
 
         // Determine winner
         selectWinner();
@@ -266,8 +286,12 @@ function selectWinner() {
     `;
 
     // Play winner sound
-    const winSound = new Audio('winner.mp3');
-    winSound.play().catch(e => console.log('Audio play failed (check if winner.mp3 exists):', e));
+    // Alternate between sounds (xen kẽ)
+    lastWinSoundIndex = (lastWinSoundIndex + 1) % winSounds.length;
+    const winSound = winSounds[lastWinSoundIndex];
+    
+    winSound.currentTime = 0;
+    winSound.play().catch(e => console.log('Audio play failed:', e));
 
     // Add to history
     history.unshift({
