@@ -10,7 +10,7 @@ let employees = [
     { id: 8, name: "Nguyễn Tùng Lâm", phone: "0982162220", image: "images/lamnt.png", used: false },
     { id: 9, name: "Nguyễn Trần Sơn", phone: "0972421894", image: "images/sonnt.png", used: false },
     { id: 10, name: "Giáp Văn Vĩnh", phone: "0969536509", image: "Icon-ABBank.webp", used: false },
-    { id: 11, name: "viethq", phone: "0912353456", image: "Icon-ABBank.webp", used: false },
+    { id: 11, name: "viethq", phone: "0912353456", image: "images/viethq.png", used: false },
     { id: 12, name: "Sửu", phone: "0865486754", image: "Icon-ABBank.webp", used: false },
     { id: 13, name: "Phạm Văn Tùng", phone: "0985623823", image: "images/tungpv.png", used: false },
     { id: 14, name: "Vũ Đình Thanh", phone: "0363958716", image: "images/thanhvd.png", used: false },
@@ -27,7 +27,7 @@ let employees = [
     { id: 25, name: "Nghĩa Design ", phone: "0394543883", image: "Icon-ABBank.webp", used: false },
     { id: 26, name: "Nguyễn Hồng Sơn", phone: "0974182365", image: "Icon-ABBank.webp", used: false },
     { id: 27, name: "BOSS Nguyễn Ngọc Thanh", phone: "0904832202", image: "images/thanhnn2.png", used: false },
-    { id: 28, name: "Hoài Hà", phone: "0978953618", image: "Icon-ABBank.webp", used: false },
+    { id: 28, name: "Hoài Hà", phone: "0978953618", image: "images/hoaih.png", used: false },
 
 
 ];
