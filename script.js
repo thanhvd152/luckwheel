@@ -57,7 +57,7 @@ let tasks = [
   { "id": 23, "text": "Không đọc ngược được tên mình thì uống 1 chén" },
   { "id": 24, "text": "Cạch với 1 người bất kỳ và cả hai cùng uống 1 chén" },
   { "id": 25, "text": "Hô to tôi làm được, tôi làm được và uống 2 chén hoặc nộp phạt 200k" },
-  { "id": 26, "text": "Hô to khẩu hiệu (Người An Bình là phải chơi hết mình) và uống 2 chén không làm được nộp phạt 200k },
+  { "id": 26, "text": "Hô to khẩu hiệu: Người An Bình là phải chơi hết mình và uống 2 chén không làm được nộp phạt 200k },
   { "id": 27, "text": "Nộp 200k hoặc Hô to khẩu hiệu: Người An Bình là phải chơi hết mình và uống 2 chén" },
   { "id": 28, "text": "Cả nhóm hỏi 1 câu khó – nếu trả lời sai uống 2 chén 'hỏi sai cũng phạt 2 chén' hoặc tự giác nộp phạt 200k" },
   { "id": 29, "text": "Phạt 100k và chỉ định 1 người uống 1 chén" },
