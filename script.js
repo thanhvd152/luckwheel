@@ -62,7 +62,7 @@ let tasks = [
   { "id": 28, "text": "Cả nhóm hỏi 1 câu khó – nếu trả lời sai uống 2 chén 'hỏi sai cũng phạt 2 chén' hoặc tự giác nộp phạt 200k" },
   { "id": 29, "text": "Phạt 100k và chỉ định 1 người uống 1 chén" },
   { "id": 30, "text": "Ôm hôn người bên cạnh hoặc uống 3 chén" },
-  { "id": 31, "text": "Uống với HuyDN SA 1 chén hoặc nộp phạt 200k" },
+  { "id": 31, "text": "Uống với HuyND3 SA 1 chén hoặc nộp phạt 200k" },
   { "id": 32, "text": "Uống với YênDV SA 1 chén hoặc nộp phạt 200k" },
   { "id": 33, "text": "Uống với ĐứcPM SA 1 chén hoặc nộp phạt 200k" },
   { "id": 34, "text": "Uống với TungPV SA 1 chén hoặc nộp phạt 200k" },
